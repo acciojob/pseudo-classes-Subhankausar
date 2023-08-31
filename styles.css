@@ -1,1 +1,39 @@
-/*  your css code here. If applicable */
+:root {
+    background-color: rgb(135, 206, 235);
+}
+
+article p:first-child {
+    color: white;
+    background-color: black;
+}
+
+article p:nth-child(2) {
+    color: initial;
+}
+
+article p:last-child {
+    color: red;
+}
+
+.styled-list {
+    list-style-type: none;
+    padding: 0;
+    width: 50%;
+}
+
+.styled-list li {
+    padding: 10px;
+    background-color: gray;
+}
+
+.styled-list li:nth-child(odd) {
+    background-color: white;
+}
+
+.styled-list li.first-last {
+    font-size: 22px;
+}
+
+.styled-list li.pink-bg {
+    background-color: pink;
+}
